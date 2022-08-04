@@ -111,11 +111,13 @@ body {
 }
 
 .eye.left {
-  left: 25%;
+  left: 14%;
+  top: 30%;
 }
 
 .eye.right {
-  right: 25%;
+  right: 15%;
+  top: 30%;
 }
 
 .eye-lid {
@@ -125,6 +127,7 @@ body {
   top: 25%;
   left: -23%;
   border-radius: 50%;
+ display: none;
 }
 
 .blush {
@@ -189,7 +192,7 @@ body {
   left: 23.5%;
 }
 
-.penguin-body:before {
+.penguin-body::before {
   content: "";
   position: absolute;
   width: 50%;
